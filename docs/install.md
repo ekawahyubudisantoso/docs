@@ -26,7 +26,7 @@ This doesn't necessarily mean you need a VPS. Some shared hosts give you SSH acc
 Flarum uses [Composer](https://getcomposer.org) to manage its dependencies and extensions. Before installing Flarum, you will need to [install Composer](https://getcomposer.org) on your machine. Afterwards, run this command in an empty location that you want Flarum to be installed in:
 
 ```bash
-composer create-project flarum/flarum . --stability=beta
+composer create-project flarum/flarum yourfolderkontol --stability=beta
 ```
 
 While this command is running, you can configure your web server. You will need to make sure your webroot is set to `/path/to/your/forum/public`, and set up [URL Rewriting](#url-rewriting) as per the instructions below.
